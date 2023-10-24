@@ -1,0 +1,24 @@
+<% if (!user) { %>
+	<h2>Welcome! Please log in.</h2>
+<% } else { %>
+	<h2>Hello, <%= user.username %>.</h2>
+	<label name="Nota Lucas">Nota Lucas</label>
+	<input type="text" name="Nota Lucas">
+	<button>Enviar</button></br>
+
+	<label name="Nota Paulo">Nota Paulo</label>
+	<input type="text" name="Nota Paulo">
+	<button>Enviar</button></br>
+
+	<label name="Nota Vanessa">Nota Vanessa</label>
+	<input type="text" name="Nota Vanessa">
+	<button>Enviar</button></br>
+
+	<label name="Nota Vitor">Nota Vitor</label>
+	<input type="text" name="Nota Vitor">
+	<button>Enviar</button></br>
+
+	<label name="Nota Walison">Nota Walison</label>
+	<input type="text" name="Nota Walison">
+	<button>Enviar</button>
+<% } %>
